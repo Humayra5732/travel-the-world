@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Montserrat', sans-serif; ;
+}
+ /*   ##############header starts here ###########*/
+  /*   ##############header starts here ###########*/
+ 
+.header{
+    height:95vh;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgb(0,0,0,0.5)), url('img/1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header{
+    color: white;
+}
+.header .logo{
+    float: left;
+    margin:15px ;
+    cursor: pointer;
+}
+.container{
+    height: 100px;
+    max-width: 1200px;  /* Middle  niye ashar code*/
+    width: 90%;
+    margin: 0 auto;  
+}
+.container ul{
+    display: inline-block;
+    margin-top:25px ;
+    float: right;
+      
+}
+.container ul li {
+    display: inline-block;
+    list-style: none;
+}
+.container ul li a{
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.container ul li a:hover{
+    border-bottom: 1px solid white; 
+    transition: 0.9s;
+}
+
+
+
+ /*   ##############header ends here ###########*/
+  /*   ##############header end s here ###########*/
+
+   /*   ##############header content  starts here ###########*/
+    /*   ##############mheader content  starts here ###########*/
+
+    .header-content{
+      
+        position: absolute;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,.1));
+
+        
+    }
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 9px;
+}
+.header-content p{
+    text-transform: uppercase;
+    padding-bottom: 9px;
+}
+.button1{
+    display: inline-block;
+    padding: 1em 1.7em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0.5em 0;
+    background-color: #fff;
+    color: red;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.header-content a:hover{
+  background-color: black;
+}
+
+
+      /*   ##############header content  ends here ###########*/
+    /*   ##############header content  ends here ###########*/
+
+        /*   ##############showcase  section  starts here ###########*/
+    /*   ##############showcase section  starts here ###########*/
+
+.showcase{
+    background-color: #ddd;
+    padding: 6rem 0;
+    height: 800px;
+}
+
+.row {
+    
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #aaa ;
+}
+.row1{
+    margin-bottom: 6rem;
+}
+.row1 .img-box,.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row1 .text-box, .row2 .img-box{
+    float: right;
+    width: 50%;
+}
+.row .img-box{
+    height: 100%;
+}
+.row .text-box{
+    height: 100%;
+}
+
+.row1 .img-box{
+    background-image: url('img/2.jpeg');
+    background-position: center;
+}
+.row2 .img-box{
+    background-image: url('img/3.jpeg');
+    background-position: center;
+}
+.row1 .text-box h1, .row2 .text-box h1{
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-weight: 500;
+   padding: 12px;
+   font-size: 32px;
+}
+
+ .row1 .text-box p, .row2 .text-box p{
+    padding: 12px;
+    font-size: 20px;
+}
+.row .button2{
+    padding: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid red;
+    border-radius: 14px;
+    color: red;
+    padding: 8px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.row a:hover{
+    background-color: black;
+}
+
+
+        /*   ##############showcase section    ends here ###########*/
+    /*   ##############showcase section   ends here ###########*/
+
+    
+        /*   ##############features section    ends here ###########*/
+    /*   ##############features section   ends here ###########*/
+
+    .second-section{
+        height: 400px; 
+        padding: 5.5rem 0;
+    }
+.features {
+    box-shadow: 5px 5px  20px 0px #000;
+}
+.box {
+    width: 33.333333%;
+    float: left;
+    
+}
+.features::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.box{
+    color: white;
+    padding: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    
+}
+.box-1,.box-3{
+    background-color: #263238;
+}
+.box-2{
+     background-color: rgb(134, 38, 21);
+}
+    
+        /*   ##############features section    ends here ###########*/
+    /*   ##############features section   ends here ###########*/
+
+
+      /*   ##############  footer starts here ###########*/
+    /*   ############## footer starts Starts here ###########*/
+
+.footer{
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+
+
+}
+.social-media-links i{
+   margin: 1.2rem;
+}
+i:hover{
+   color: blue;
+   cursor: pointer;
+}
+    /*   ##############  footer ends here ###########*/
+    /*   ############## footer ends Starts here ###########*/
+
+
+        /*   ##############  about starts here ###########*/
+    /*   ############## about starts here ###########*/
+
+.about-header{
+    background-image: none;
+    height: 80px;
+    background-color: #263238;
+    
+}
+
+.about-us{
+    color: black;
+    max-width: 1200px;  /* Middle  niye ashar code*/
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 30px;
+}
+.about-us-title {
+    border-bottom: 5px solid rgb(134, 38, 21);;
+    padding-bottom: 6px;
+}
+.about-us p{
+    padding-top: 10px;
+}
+.about-wrapper ul li{
+    list-style: none;
+}
+.about-wrapper{
+    text-align: center;
+    margin-top: 20px;
+}
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.about-wrapper li::before{
+    content: '\2713';
+    color: rgb(134, 38, 21);
+    font-weight: bold;
+    padding-right: 10px;
+    
+}
+
+.numbers .travelled{
+    float: left;
+    width: 25%;
+}
+
+.numbers {
+    max-width: 1200px;  /* Middle  niye ashar code*/
+    width: 90%;
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 40px; color: rgb(134, 38, 21);
+}
+.numbers p{
+    color: black;
+}
+.numbers::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.banner{
+    color: black;
+    max-width: 1200px;  /* Middle  niye ashar code*/
+    width: 90%;
+    margin: 0 auto; 
+    margin-top: 3rem;
+    background-color: rgb(134, 38, 21);
+     height: 90px;
+     padding-top: 30px;
+}
+.banner-row .left{
+    float:left;
+    width: 70%;
+    color: white;
+     font-weight: bold;
+     padding-left:10px;
+}
+.banner-row .right{
+    float:right;
+    width:20%;
+    border: 5px solid white;
+    text-align: center;
+    margin-right:20px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-weight: 900;
+}
+.banner-row .right a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+        /*   ##############  about ends here ###########*/
+    /*   ############## about ends  here ###########*/
+
+
+      /*   ############## contact us starts here ###########*/
+    /*   ############## contact us starts here ###########*/
+
+    .contact-form{
+        padding: 5rem 0;
+        max-width: 1200px;  /* Middle  niye ashar code*/
+    width: 90%;
+    margin: 0 auto; 
+    background: #f7f7f7;
+    }
+   
+  .form-wrapper  .company-address{
+      background: #fff;
+        width: 49%;
+        float: left;
+        padding: 20px;
+    }
+    .form-wrapper  .company-address i{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .form-wrapper  .company-address  h2{
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .form-wrapper  .company-address{
+        margin-bottom: 35px ;
+    }
+    .form-wrapper  .company-address img{
+        max-width: 90%;
+        min-width: 400px ;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    .form-wrapper  .form{
+        width: 49%;
+        float: right;
+    }
+    .form-wrapper::after{
+        content: '';
+        display: block;
+        clear: both;
+    } 
+    .form h1::after{
+        content: '';
+        display: block;
+        width: 100%;
+        border-bottom:6px solid rgb(134, 38, 21); 
+    }
+
+.form-wrapper label{
+    display: block;
+}
+.form-wrapper .form input{
+ padding: 10px;
+ width: 100%;
+}
+.form-wrapper .form .form-group{
+    margin-bottom: 12px;
+}
+.form-wrapper .form label::after{
+    content: '*';
+    color: red;
+}
+.form-wrapper .form textarea{
+     width: 100%;
+     height: 300px;
+     padding: 10px;
+}
+.form-btn{
+    display:block;
+    padding: 5px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: rgb(134, 38, 21);
+}
+
+
+
+      /*   ##############  contact us ends here ###########*/
+    /*   ############## contact us ends   here ###########*/
+
